@@ -1,0 +1,45 @@
+/* /* special thanks to https://css-tricks.com/the-shapes-of-css/  for Hex shape */
+
+.hexagon {
+    width: 15.625vw;
+    height: 9.02109375vw;
+    background: red;
+    position: relative;
+  }
+  .hexagon::before {
+    content: "";
+    position: absolute;
+    top: -4.510546875vw;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 7.8125vw solid transparent;
+    border-right: 7.8125vw solid transparent;
+    border-bottom: 4.510546875vw solid red;
+  }
+  .hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -4.510546875vw;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 7.8125vw solid transparent;
+    border-right: 7.8125vw solid transparent;
+    border-top: 4.510546875vw solid red;
+  }
+  .hexcontain{
+      height: 50vh
+  }
+  .tophex{
+      display:flex;
+      justify-content: center;
+  }
+  .centerhex{
+      display: flex;
+      justify-content: center;
+  }
+  .lowerhex{
+      display: flex;
+      justify-content: center;
+  }

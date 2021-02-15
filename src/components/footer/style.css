@@ -1,0 +1,7 @@
+.footer-body{
+    height:25vh;
+    background-image: url(./bottom.jpg);
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    background-size: cover;
+}
