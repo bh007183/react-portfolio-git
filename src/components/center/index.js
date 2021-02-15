@@ -1,8 +1,36 @@
 import "./style.css";
 import React, { Component } from "react";
 
-export default class Center extends Component {
-  render() {
+export default function Center(props) {
+  
+console.log(props)
+if (props.data === "bio"){
+
+  return(
+  <div>
+    Little miss muffit
+  </div>
+  )
+}
+if (props.data === "contact"){
+
+  return(
+  <div>
+    contact miss muffit
+  </div>
+  )
+}
+
+if (props.data === "colaborators"){
+
+  return(
+  <div>
+    colaborate with miss muffit
+  </div>
+  )
+}
+
+if(props.data === ""){
     return (
      <section className="center-back">
       <div className="hexcontain">
@@ -23,5 +51,6 @@ export default class Center extends Component {
       
     
     );
-  }
+}
+  
 }

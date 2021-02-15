@@ -5,11 +5,11 @@ import Center from "./components/center"
 import Footer from "./components/footer"
 
 function App() {
+ 
+
   return (
     <main className="App">
     <Header/>
-    <Center/>
-    <Footer/>
     </main>
   );
 }
