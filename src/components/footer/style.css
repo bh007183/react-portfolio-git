@@ -1,7 +1,17 @@
 .footer-body{
-    height:25vh;
-    background-image: url(./bottom.jpg);
+    height: 25vw;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0, 0) 60%,
+        #51585f
+      ),url(./bottom.jpg);
     border-bottom-left-radius: 5vw;
     border-bottom-right-radius: 5vw;
     background-size: cover;
+}
+@media only screen and (max-width: 764px){
+    .footer-body{
+      height: 19.5vh;
+      width: 100vw
+  }
 }

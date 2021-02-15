@@ -1,5 +1,7 @@
 /* /* special thanks to https://css-tricks.com/the-shapes-of-css/  for Hex shape */
 
+
+
 .hexagon {
     width: 15.625vw;
     height: 9.02109375vw;
@@ -10,9 +12,9 @@
     content: "";
     position: absolute;
     top: -4.510546875vw;
-    left: 0;
-    width: 0;
-    height: 0;
+    left: 0vw;
+    width: 0vw;
+    height: 0vw;
     border-left: 7.8125vw solid transparent;
     border-right: 7.8125vw solid transparent;
     border-bottom: 4.510546875vw solid red;
@@ -21,19 +23,21 @@
     content: "";
     position: absolute;
     bottom: -4.510546875vw;
-    left: 0;
-    width: 0;
-    height: 0;
+    left: 0vw;
+    width: 0vw;
+    height: 0vw;
     border-left: 7.8125vw solid transparent;
     border-right: 7.8125vw solid transparent;
     border-top: 4.510546875vw solid red;
   }
   .hexcontain{
-      height: 50vh
+      height: 50vw;
+      width: 100vw
   }
   .tophex{
       display:flex;
       justify-content: center;
+      margin-top: 10vw;
   }
   .centerhex{
       display: flex;
@@ -43,3 +47,53 @@
       display: flex;
       justify-content: center;
   }
+
+
+  @media only screen and (max-width: 764px){
+    .hexcontain{
+      height: 41vh;
+      width: 100vw
+    }
+    .hexcontain{
+      margin-top: 13vh;
+    }
+  
+  
+}
+  @media only screen and (max-width: 550px){
+    .hexagon {
+      width: 20.833333333333332vw;
+      height: 12.028125vw;
+      background: red;
+      position: relative;
+      
+    }
+    .adjust{
+      margin-top: 7vw !important;
+    }
+    .hexagon::before {
+      content: "";
+      position: absolute;
+      top: -6.0140625vw;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 10.416666666666666vw solid transparent;
+      border-right: 10.416666666666666vw solid transparent;
+      border-bottom: 6.0140625vw solid red;
+    }
+    .hexagon::after {
+      content: "";
+      position: absolute;
+      bottom: -6.0140625vw;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-left: 10.416666666666666vw solid transparent;
+      border-right: 10.416666666666666vw solid transparent;
+      border-top: 6.0140625vw solid red;
+    }
+   
+  
+  
+}

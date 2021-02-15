@@ -9,11 +9,12 @@
       border-top-right-radius: 5vw;
       background: linear-gradient(
         to bottom,
-        rgba(0,0,0, 0) 75%,
-        rgba(63, 47, 47, 0.9)
+        rgba(0,0,0, 0) 60%,
+        #726a61
       ),url(./top.jpg);
       background-size: cover;
-      height:25vh;
+      height:25vw;
+      
   }
   .navbuttons{
       display: flex;
@@ -30,4 +31,10 @@ a{
     .brand-logo{
         margin-left: 0vw;
     }
+}
+@media only screen and (max-width: 764px){
+    .body{
+      height: 25vh;
+      width: 100vw
+  }
 }
