@@ -31,6 +31,7 @@ render() {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/collaborators">Collaborators</Link></li>
+        <li><Link to="/">Home</Link></li>
       </ul>
       </div>
     </div>
@@ -42,6 +43,8 @@ render() {
     <li><Link to="/contact">Contact</Link></li>
     <hr/>
     <li><Link to="/collaborators">Collaborators</Link></li>
+    <hr/>
+    <li><Link to="/">Home</Link></li>
   </ul>
     
     </div>
