@@ -3,34 +3,9 @@ import React, { Component } from "react";
 
 export default function Center(props) {
   
-console.log(props)
-if (props.data === "bio"){
 
-  return(
-  <div>
-    Little miss muffit
-  </div>
-  )
-}
-if (props.data === "contact"){
 
-  return(
-  <div>
-    contact miss muffit
-  </div>
-  )
-}
 
-if (props.data === "colaborators"){
-
-  return(
-  <div>
-    colaborate with miss muffit
-  </div>
-  )
-}
-
-if(props.data === ""){
     return (
      <section className="center-back">
       <div className="hexcontain">
@@ -51,6 +26,6 @@ if(props.data === ""){
       
     
     );
-}
+
   
 }
