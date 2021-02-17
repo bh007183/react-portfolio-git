@@ -1,0 +1,28 @@
+.white-text{
+    
+}
+.me{
+   float: left;
+   margin-right: 2vw;
+   border-radius: 5vw;
+   width: auto;
+   height: auto;
+   contain: object-fit;
+}
+.card-panel{
+border-radius: 5vw;
+   background: rgba(0, 0, 0, 0.2);
+   min-height: 30vw;
+  
+   
+}
+.bio{
+    display: flex;
+    justify-content: center;
+}
+
+.test{
+    margin: 0px !important;
+}
+
+
