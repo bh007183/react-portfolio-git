@@ -19,7 +19,7 @@ export default function Collaborators() {
         <div className="col-lg-6 column title">
             <h6>Shake-N-Date:</h6>
             <p>Check out their github profiles!</p>
-            <div style={{display: "flex", justifyContent: "space-between"}}>
+            <div style={{display: "flex", justifyContent: "space-around"}}>
               <button href="https://github.com/khsieh95">Kevin H</button>
               <button href="https://github.com/threeeyesxght">Keon</button>
             </div>
@@ -41,7 +41,7 @@ export default function Collaborators() {
         <div className="col-lg-6 column title">
             <h6>Turn The Tables:</h6>
             <p>Check out their github profiles!</p>
-            <div style={{display: "flex", justifyContent: "space-between"}}>
+            <div style={{display: "flex", justifyContent: "space-around"}}>
               <button href="https://github.com/Lax-Walrus">Kevin L</button>
               <button href="https://github.com/tmkeller">Tim</button>
               <button href="https://github.com/seagda">Shea</button>

@@ -17,7 +17,6 @@ export default class Header extends Component{
       });
   }
 
-
 render() {
   return (
     <>
@@ -25,10 +24,10 @@ render() {
   <nav className="nav">
     <div className="nav-wrapper">
       <a href="#!" className="brand-logo">Logo</a>
-      <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+      <a href="#" data-target="mobile-demo"  className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <div className="navbuttons">
       <ul className="right hide-on-med-and-down">
-        <li><Link to="/about">About</Link></li>
+        <li><Link  to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/collaborators">Collaborators</Link></li>
         <li><Link to="/">Home</Link></li>
@@ -38,13 +37,13 @@ render() {
   </nav>
 
   <ul className="sidenav" id="mobile-demo">
-    <li><Link to="/about">About</Link></li>
+    <li><Link className={"sidenav-close"} to="/about">About</Link></li>
     <hr/>
-    <li><Link to="/contact">Contact</Link></li>
+    <li><Link className={"sidenav-close"} to="/contact">Contact</Link></li>
     <hr/>
-    <li><Link to="/collaborators">Collaborators</Link></li>
+    <li><Link className={"sidenav-close"} to="/collaborators">Collaborators</Link></li>
     <hr/>
-    <li><Link to="/">Home</Link></li>
+    <li><Link className={"sidenav-close"} to="/">Home</Link></li>
   </ul>
     
     </div>
