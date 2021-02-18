@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Shake-N-Date",
+        "image": "./date.jpg",
+        "github": ["https://github.com/khsieh95", "https://github.com/threeeyesxght"],
+        "name": ["Kevin H", "Kean"],
+        "alt": "Date App"
+    },
+    {
+        "title": "Turn The Tables",
+        "image": "./review.jpg",
+        "github": ["https://github.com/Lax-Walrus", "https://github.com/tmkeller", "https://github.com/seagda"],
+        "name": ["Kevin L", "Tim", "Shea"],
+        "alt": "Review App"
+    }
+]
