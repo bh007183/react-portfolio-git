@@ -1,0 +1,12 @@
+.gitHubLink{
+    color: black
+}
+.collaboratorsCard{
+    background:rgba(0, 0, 0, 0.3);
+    width: 50vw;
+    margin: 0 auto;
+}
+.image{
+    height: auto;
+    width: 30vw
+}

@@ -23,7 +23,6 @@ render() {
     <div className="body">
   <nav className="nav">
     <div className="nav-wrapper">
-      <a href="#!" className="brand-logo">Logo</a>
       <a href="#" data-target="mobile-demo"  className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <div className="navbuttons">
       <ul className="right hide-on-med-and-down">
