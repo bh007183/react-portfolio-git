@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Collaborators from "./pages/Collaborators";
 import About from "./pages/About";
+
 function App() {
   return (
     <main className="App">

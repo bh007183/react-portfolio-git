@@ -8,14 +8,23 @@ export default class Header extends Component{
   state = {
      page: ""
   }
-
+  
 
   componentDidMount() {
     document.addEventListener('DOMContentLoaded', function() {
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems);
       });
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.modal');
+        var instances = M.Modal.init(elems, {opacity: 1})
+      });
   }
+
+ 
+    
+
+ 
 
 render() {
   return (
@@ -27,7 +36,7 @@ render() {
       <div className="navbuttons">
       <ul className="right hide-on-med-and-down">
         <li><Link  to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><a className={"modal-trigger"} href="#modal1">Contact</a></li>
         <li><Link to="/collaborators">Collaborators</Link></li>
         <li><Link to="/">Home</Link></li>
       </ul>
@@ -44,6 +53,23 @@ render() {
     <hr/>
     <li><Link className={"sidenav-close"} to="/">Home</Link></li>
   </ul>
+
+  <div id="modal1" className="modal card">
+  
+        
+            
+        <h3 style={{margin: "0 auto"}}>Contact me:</h3>
+        <hr/>
+        <a href="https://github.com/bh007183" target="_blank">Github Profile</a>
+        <hr/>
+        <a href="https://www.linkedin.com/in/ben-hopkins-24a41357" target="_blank">Linkdin Profile</a>
+        <hr/> 
+        <a href="mailto:bjhops17@gmail.com">bjhops17@gmail.com</a>
+        <hr/>
+        <p>Call me at: 907-231-2406</p>
+      
+   
+  </div>
     
     </div>
     
