@@ -7,6 +7,7 @@ import data from "./col.json";
 import Card from "../Cards"
 
 
+
 export default function Collaborators() {
 
 
@@ -47,7 +48,8 @@ export default function Collaborators() {
           <hr />
         </header>
         
-        {data.map(obj =>  <Card 
+        {data.map((obj, index) =>  <Card 
+        key={index}
         title={obj.title}
         image={obj.image}
         github={obj.github}

@@ -1,15 +1,13 @@
 import React from 'react'
-import Button from "../../components/buttons"
 import { useEffect, useState } from "react";
-
+import "./style.css"
 export default function Card(props) {
     const [thisState, setThisState] = useState({
-        array: props.github,
+        linkArray: props.github,
+        nameArray: props.name
        
       });
 
-
-     
 
 
 
@@ -23,19 +21,21 @@ export default function Card(props) {
             <div
               style={{ display: "flex", justifyContent: "space-around" }}
             >
-              {props.github.map(github => {return  <button href={github}>{github}</button>}
-              ), props.github.map(bla => console.log(bla))}
+              {thisState.linkArray.map((github, index) => <button><a target={"_blank"} key={index} href={github}>{thisState.nameArray[index]}</a></button>)}
+              
             </div>
           </div>
           <figure className="col-lg-6 column title">
             <img
-              src={props.image}
+              src={console.log(props.image)}
               alt={props.alt}
               className="img-thumbnail date-image"
               style={{ height: "auto", width: "60vw" }}
             />
           </figure>
+          <hr/>
         </section>
+
     
      
     )
