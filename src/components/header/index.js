@@ -11,18 +11,12 @@ export default class Header extends Component{
   
 
   componentDidMount() {
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.sidenav');
-        var instances = M.Sidenav.init(elems);
-      });
-      document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.modal');
-        var instances = M.Modal.init(elems, {opacity: 1})
-      });
-  }
-
- 
     
+      var sidenav = document.querySelectorAll('.sidenav');
+      var elems = document.querySelectorAll('.modal');
+      M.Sidenav.init(sidenav);
+      M.Modal.init(elems);
+  }
 
  
 
@@ -47,7 +41,7 @@ render() {
   <ul className="sidenav" id="mobile-demo">
     <li><Link className={"sidenav-close"} to="/about">About</Link></li>
     <hr/>
-    <li><Link className={"sidenav-close"} to="/contact">Contact</Link></li>
+    <li><a className={"sidenav-close modal-trigger"} href="#modal1">Contact</a></li>
     <hr/>
     <li><Link className={"sidenav-close"} to="/collaborators">Collaborators</Link></li>
     <hr/>
@@ -58,14 +52,14 @@ render() {
   
         
             
-        <h3 style={{margin: "0 auto"}}>Contact me:</h3>
-        <hr/>
+        <h3 style={{margin: "0 auto"}}>Contact me</h3>
+        <br/>
         <a href="https://github.com/bh007183" target="_blank">Github Profile</a>
-        <hr/>
+        <br/>
         <a href="https://www.linkedin.com/in/ben-hopkins-24a41357" target="_blank">Linkdin Profile</a>
-        <hr/> 
+        <br/> 
         <a href="mailto:bjhops17@gmail.com">bjhops17@gmail.com</a>
-        <hr/>
+        <br/>
         <p>Call me at: 907-231-2406</p>
       
    

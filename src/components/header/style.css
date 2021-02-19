@@ -40,10 +40,18 @@ a{
 }
 
 .modal{
-    background:  rgba(73, 73, 73, 0.8);
+    background:  rgba(117, 81, 81, 1);
     border-radius: 1vw;
     color: white;
+    text-align: center;
 }
+
+.modal-overlay{
+    backdrop-filter: blur(6px);
+    opacity: 1 !important;
+    background: rgba(0,0,0,0.3)
+}
+
 @media only screen and (max-width: 993px){
     .brand-logo{
         margin-left: 0vw;
