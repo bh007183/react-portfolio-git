@@ -60,6 +60,8 @@ render() {
         <br/> 
         <a href="mailto:bjhops17@gmail.com">bjhops17@gmail.com</a>
         <br/>
+        <a href="https://github.com/bh007183/react-portfolio-git/files/6016873/Resume2.pdf"  download> Resume</a> 
+        <br/>
         <p>Call me at: 907-231-2406</p>
       
    
