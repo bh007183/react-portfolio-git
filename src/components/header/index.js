@@ -39,9 +39,9 @@ render() {
   </nav>
 
   <ul className="sidenav" id="mobile-demo">
-    <li><Link className={"sidenav-close"} to="/about">About</Link></li>
+    <li ><Link className={"sidenav-close"} to="/about">About</Link></li>
     <hr/>
-    <li><a className={"sidenav-close modal-trigger"} href="#modal1">Contact</a></li>
+    <li ><a className={"sidenav-close modal-trigger"} href="#modal1">Contact</a></li>
     <hr/>
     <li><Link className={"sidenav-close"} to="/collaborators">Collaborators</Link></li>
     <hr/>

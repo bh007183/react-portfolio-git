@@ -6,72 +6,48 @@ import dragon from "./dragon.jpg";
 import turn from "./turn.jpg";
 import weather from "./weather.jpg";
 
-
-
 export default function Center(props) {
-  
- const dateLaunch = "https://bh007183.github.io/shake-and-date/"
- const dateRepo = "https://github.com/bh007183/shake-and-date"
-
- const turnLaunch = "https://peaceful-gorge-36427.herokuapp.com/"
- const turnRepo = "https://github.com/bh007183/eightysixed-app"
-
-
-
-  const urlFunction = (url) =>{
-    
-    window.location.href = url
-  }
-
-
+ 
   return (
-    
-      <div className="hexcontain">
-        <div className="tophex">
-          <a target="_blank" href="https://github.com/bh007183/eightysixed-app">
-          <div className="hexagon uno" >
-            <img className="one"  />
+    <div className="hexcontain">
+      <div className="tophex">
+        <a className="hover" target="_blank" href="https://bh007183.github.io/shake-and-date/">
+          <div className="hexagon uno">
+            <img className="one" />
           </div>
-          </a>
+        </a>
+        <a className="hover" target="_blank" href="https://peaceful-gorge-36427.herokuapp.com/">
           <div className="hexagon two">
-            <img
-              className="one"
-              
-            />
+            <img className="one" />
           </div>
+        </a>
+        <a className="hover" target="_blank" href="https://bh007183.github.io/stock-app/">
           <div className="hexagon three">
-            <img
-              className="one"
-            
-            />
+            <img className="one" />
           </div>
-        </div>
-        <div className="centerhex">
+        </a>
+      </div>
+      <div className="centerhex">
+        <a className="hover" target="_blank" href="https://bh007183.github.io/day-planner/">
           <div className="hexagon adjust four">
-            <img
-              className="one"
-             
-              
-            />
+            <img className="one" />
           </div>
+        </a>
+        <a className="hover" target="_blank" href="https://bh007183.github.io/old-man-weather/">
           <div className="hexagon adjust five">
-            <img
-              className="one"
-             
-              
-            />
+            <img className="one" />
           </div>
-        </div>
-        <div className="lowerhex">
+        </a>
+      </div>
+      <div className="lowerhex">
+        <a className="hover" target="_blank" href="https://github.com/bh007183">
           <div className="hexagon adjust six">
             <img
               className="one"
-              
-              // style={{ margin: "0vw 0vw .5vw 23vw" }}
             />
           </div>
-        </div>
+        </a>
       </div>
-    
+    </div>
   );
 }

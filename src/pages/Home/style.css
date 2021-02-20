@@ -1,7 +1,14 @@
 /* /* special thanks to https://css-tricks.com/the-shapes-of-css/  for Hex shape */
 
+.hover:hover{
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background-color: rgba(255, 0, 0, 0.3);
+  
+}
+
 .one{
-  /* overflow: scroll; */
+  overflow: scroll; 
   max-width: 30vw;
   min-height: 25vw;
   margin: 0vw 0vw .5vw 23vw
@@ -31,7 +38,7 @@
   background-position: center;
   background-size: cover;
   margin: 4vw 1vw 0vw 1vw;
-  max-width: 40vw;
+  max-width: 25vw; 
   max-height: 25vw;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
   
@@ -39,7 +46,7 @@
 
 
   .hexcontain{
-      height: 50vh;
+      height: 75vw; 
       width: 100vw;
       position: absolute;
       overflow: visible;
@@ -70,21 +77,21 @@
 
 
 
-  @media only screen and (min-width: 831px){
+  /* @media only screen and (min-width: 831px){ */
 
-    .one{
+    /* .one{ */
       /* overflow: scroll; */
-      max-width: 30vw;
+      /* max-width: 30vw;
       min-height: 25vw;
       margin: 0vw 0vw .5vw 23vw
+     */
     
-    
-    }
+    /* } */
  
-    .hexcontain{
+    /* .hexcontain{
       
       width: 100vw;
       position: absolute;
       overflow: visible;
-  }
-}
+  } */
+/* } */
