@@ -13,7 +13,7 @@
         #726a61
       ),url(./top.jpg);
       background-size: cover;
-      height:25vw;
+      height:25vh;
       
   }
   .navbuttons{
@@ -32,7 +32,7 @@ a{
     background: rgba(73, 73, 73, 0.8);
     
     width: 100%;
-    height: 65vw;
+    height: 30vh;
 }
 .sidenav-close{
     text-align: center;
@@ -56,10 +56,4 @@ a{
     .brand-logo{
         margin-left: 0vw;
     }
-}
-@media only screen and (max-width: 764px){
-    .body{
-      height: 25vh;
-      width: 100vw
-  }
 }
