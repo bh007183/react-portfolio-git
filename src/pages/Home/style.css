@@ -1,10 +1,11 @@
 /* /* special thanks to https://css-tricks.com/the-shapes-of-css/  for Hex shape */
 
 .hover:hover{
-  color: #ff7a59;
-  border: #ff7a59 solid 1px;
-  background-color: rgba(255, 0, 0, 0.3);
-  
+  transform: scale(1.1);
+}
+
+.hover{
+  transition:  0.2s; 
 }
 
 .one{
@@ -12,9 +13,8 @@
   max-width: 30vw;
   min-height: 25vw;
   margin: 0vw 0vw .5vw 23vw
-
-
 }
+
 .uno{
   background-image: url("./date.jpg")
 }
@@ -41,9 +41,7 @@
   max-width: 25vw; 
   max-height: 25vw;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-  
 }
-
 
   .hexcontain{
       height: 75vw; 
@@ -75,23 +73,3 @@
       left: 37vw;
   }
 
-
-
-  /* @media only screen and (min-width: 831px){ */
-
-    /* .one{ */
-      /* overflow: scroll; */
-      /* max-width: 30vw;
-      min-height: 25vw;
-      margin: 0vw 0vw .5vw 23vw
-     */
-    
-    /* } */
- 
-    /* .hexcontain{
-      
-      width: 100vw;
-      position: absolute;
-      overflow: visible;
-  } */
-/* } */

@@ -13,7 +13,7 @@
         #726a61
       ),url(./top.jpg);
       background-size: cover;
-      height:25vh;
+      height:25vw;
       
   }
   .navbuttons{
@@ -30,7 +30,6 @@ a{
 
 .sidenav{
     background: rgba(73, 73, 73, 0.8);
-    
     width: 100%;
     height: 30vh;
 }
