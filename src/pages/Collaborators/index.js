@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import Date from "./date.jpg";
+import Litzia from './litzia.jpg'
 import Review from "./review.jpg";
 import { useEffect, useState } from "react";
 import data from "./col.json";
@@ -10,7 +11,7 @@ import Card from "../Cards"
 
 export default function Collaborators() {
   const [Image, setImage] = useState({
-    image: [Date, Review]
+    image: [Date, Review, Litzia]
   })
 
   return (

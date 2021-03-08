@@ -5,6 +5,7 @@ import day from "./day.jpg";
 import dragon from "./dragon.jpg";
 import turn from "./turn.jpg";
 import weather from "./weather.jpg";
+import litzia from "../Collaborators/litzia.jpg"
 
 export default function Center(props) {
  
@@ -40,7 +41,7 @@ export default function Center(props) {
         </a>
       </div>
       <div className="lowerhex">
-        <a className="hover" target="_blank" href="https://github.com/bh007183">
+        <a className="hover" target="_blank" href="https://l-z-mount-bjh.herokuapp.com/">
           <div className="hexagon adjust six">
             <img
               className="one"

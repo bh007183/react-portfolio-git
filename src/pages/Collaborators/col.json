@@ -12,5 +12,12 @@
         "github": ["https://github.com/Lax-Walrus", "https://github.com/tmkeller", "https://github.com/seagda"],
         "name": ["Kevin L", "Tim", "Shea"],
         "alt": "Review App"
+    },
+    {
+        "title": "Litzia",
+        "image": "./litzia.jpg",
+        "github": ["https://github.com/Lax-Walrus", "https://github.com/khsieh95", "https://github.com/andrew1835"],
+        "name": ["Kevin L", "Kevin H", "Andrew"],
+        "alt": "online store app"
     }
 ]

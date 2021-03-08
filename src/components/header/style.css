@@ -50,9 +50,4 @@ a{
     opacity: 1 !important;
     background: rgba(0,0,0,0.3)
 }
-/* 
-@media only screen and (max-width: 993px){
-    .brand-logo{
-        margin-left: 0vw;
-    }
-} */
+
