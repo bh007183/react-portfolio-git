@@ -12,7 +12,16 @@ export default function About() {
               
               
             <p className="white-text">
-              Hello! I hail from a small town two hours east of Seattle. I am currently working to complete the UW Coding Bootcamp with the goal of entering into the tech industry! My employment history has never included anything tech related (as of yet) so I will not mention former accomplishments. I did graduate with my BA in Criminal Justice back in 2014 but never really used it in the work force. I am excited to launch into a tech career and learn as much as I can! My porfolio page has examples of my work and I will continue to update it with new projects as they are completed.
+              Hello! I hail from a small town two hours east of Seattle and I recently graduated from University of Washingtons Full Stack Web Development Bootcamp (thats a mouth full)! My employment history has never included anything tech related (as of yet) so I will not mention former accomplishments. I did graduate with my BA in Criminal Justice back in 2014 but never really used it in the work force (accept for a short gig in the freezing waste lands of northern Alaska). I am excited to launch into a tech career and learn as much as I can! Curently, I can work with: 
+              <li>Javascript</li>
+              <li>JQuery</li>
+              <li>CSS</li>
+              <li>HTML</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>mySql via sequelize</li>
+              <li>mongoDB via mongoose</li>
+              
               </p>
            
           </div>
