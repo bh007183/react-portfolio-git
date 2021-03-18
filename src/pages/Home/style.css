@@ -16,27 +16,29 @@
 }
 
 .uno{
-  background-image: url("./date.jpg")
+  background-image: url("https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QF7HHOP4B432HDF6PBZTJXDAAU.jpg&w=916")
 }
 .two{
-  background-image: url("./turn.jpg")
+  background-image: url("https://q3p9g6n2.rocketcdn.me/wp-content/ml-loads/2014/09/reviews-ratings-stars-ss-1920.jpg")
 }
 .three{
-  background-image: url("./dragon.jpg")
+  background-image: url("https://bh007183.github.io/stock-app/dragon.svg");
+  background-size: contain;
 }
 .four{
-  background-image: url("./day.jpg")
+  background-image: url("https://i.etsystatic.com/21547304/r/il/ae85ba/2212030936/il_570xN.2212030936_1y6h.jpg")
 }
 .five{
-  background-image: url("./weather.jpg")
+  background-image: url("https://image.shutterstock.com/image-photo/sun-vs-clouds-drawing-chalk-260nw-678837814.jpg")
 }
 .six{
-  background-image: url("../Collaborators/litzia.jpg")
+  background-image: url("https://media-exp1.licdn.com/dms/image/C560BAQFw3xGLDTPovg/company-logo_200_200/0/1553027270344?e=1623888000&v=beta&t=wfT2gj5RRWVHnKif5CGR70mA57uEUApajicqAZhHwME")
 }
 .hexagon {
-
+  /* auto|length|cover|contain|initial|inherit */
   background-position: center;
   background-size: cover;
+  /* background-repeat: no-repeat; */
   margin: 4vw 1vw 0vw 1vw;
   max-width: 25vw; 
   max-height: 25vw;
