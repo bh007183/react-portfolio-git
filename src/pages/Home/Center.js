@@ -29,7 +29,7 @@ export default function Center(props) {
         </a>
       </div>
       <div className="centerhex">
-        <a className="hover" target="_blank" href="https://bh007183.github.io/day-planner/">
+        <a className="hover" target="_blank" href="https://bjh-hop-estore.herokuapp.com/">
           <div className="hexagon adjust four">
             <img className="one" />
           </div>
