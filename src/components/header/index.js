@@ -3,6 +3,9 @@ import "./style.css";
 import M from 'materialize-css'
 import resume from '../../resume.pdf'
 import {Link} from "react-router-dom"
+
+import { makeStyles } from '@material-ui/core/styles';
+import Modal from '@material-ui/core/Modal';
 export default class Header extends Component{
 
   state = {

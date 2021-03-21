@@ -22,17 +22,19 @@
   background-image: url("https://q3p9g6n2.rocketcdn.me/wp-content/ml-loads/2014/09/reviews-ratings-stars-ss-1920.jpg")
 }
 .three{
-  background-image: url("https://bh007183.github.io/stock-app/dragon.svg");
-  background-size: contain;
+  background-image: url("https://i.pinimg.com/originals/a9/5c/fb/a95cfb8f6394257e3ee8014db84cf47f.jpg");
+  
 }
 .four{
-  background-image: url("https://i.pinimg.com/originals/a9/5c/fb/a95cfb8f6394257e3ee8014db84cf47f.jpg")
+  background-image: url("https://media-exp1.licdn.com/dms/image/C560BAQFw3xGLDTPovg/company-logo_200_200/0/1553027270344?e=1623888000&v=beta&t=wfT2gj5RRWVHnKif5CGR70mA57uEUApajicqAZhHwME")
 }
 .five{
-  background-image: url("https://image.shutterstock.com/image-photo/sun-vs-clouds-drawing-chalk-260nw-678837814.jpg")
+  background-image: url("https://bh007183.github.io/stock-app/dragon.svg")
 }
 .six{
-  background-image: url("https://media-exp1.licdn.com/dms/image/C560BAQFw3xGLDTPovg/company-logo_200_200/0/1553027270344?e=1623888000&v=beta&t=wfT2gj5RRWVHnKif5CGR70mA57uEUApajicqAZhHwME")
+  background-image: url("https://image.shutterstock.com/image-photo/sun-vs-clouds-drawing-chalk-260nw-678837814.jpg");
+  
+  background-size: contain;
 }
 .hexagon {
   /* auto|length|cover|contain|initial|inherit */
