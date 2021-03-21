@@ -14,7 +14,7 @@ import { Button } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",
-    width: 400,
+    width: "60%",
     backgroundColor: theme.palette.background.paper,
     border: "2px solid #000",
     boxShadow: theme.shadows[5],
@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
     bottom: 0,
     right: 0,
     textAlign: "center",
+    overflow: "scroll"
   },
 }));
 
@@ -53,7 +54,7 @@ export default function Center() {
     case "0":
       body = (
         <div className={classes.paper}>
-          <h2 id="simple-modal-title">Shake N Date</h2>
+          <h4 id="simple-modal-title">Shake N Date</h4>
           <img src={date} className="appImage"></img>
           <p id="simple-modal-description">
             Don't know what to do for date night? Worry no more! Let Shake N
@@ -77,7 +78,7 @@ export default function Center() {
     case "1":
       body = (
         <div className={classes.paper}>
-          <h2 id="simple-modal-title">Turn The Tables</h2>
+          <h4 id="simple-modal-title">Turn The Tables</h4>
           <img src={turn} className="appImage"></img>
           <p id="simple-modal-description">
             (Please note, this app is hosted on heroku and may take a few second
@@ -101,7 +102,7 @@ export default function Center() {
     case "2":
       body = (
         <div className={classes.paper}>
-          <h2 id="simple-modal-title">git Outside!</h2>
+          <h4 id="simple-modal-title">git Outside!</h4>
           <img src={estore} className="appImage"></img>
           <p id="simple-modal-description">
             (Please note, this app is hosted on heroku and may take a few second
@@ -123,7 +124,7 @@ export default function Center() {
     case "3":
       body = (
         <div className={classes.paper}>
-          <h2 id="simple-modal-title">Litzia</h2>
+          <h4 id="simple-modal-title">Litzia</h4>
           <img src={litzia} className="appImage"></img>
           <p id="simple-modal-description">
             (Please note, this app is hosted on heroku and may take a few second
@@ -145,7 +146,7 @@ export default function Center() {
     case "4":
       body = (
         <div className={classes.paper}>
-          <h2 id="simple-modal-title">Dragon Trading</h2>
+          <h4 id="simple-modal-title">Dragon Trading</h4>
           <img src={dragon} className="appImage"></img>
           <p id="simple-modal-description">
             This is just a simple trading app that I worked on for fun. Not very
@@ -166,7 +167,7 @@ export default function Center() {
     case "5":
       body = (
         <div className={classes.paper}>
-          <h2 id="simple-modal-title">Old Man Weather</h2>
+          <h4 id="simple-modal-title">Old Man Weather</h4>
           <img src={weather} className="appImage"></img>
           <p id="simple-modal-description">
             This is a simple weather app using a 3rd party api. Strait forward
