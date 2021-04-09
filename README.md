@@ -5,7 +5,7 @@
 
   ## Description
 
-  Its an updated portfolio using React as a framework.
+  This is an improved portfolio from my last one. I wanted to have the site look nice and still have the basic features my previouse site had. .
 
   ## Images
 
@@ -30,11 +30,11 @@
 
   To Install necessary dependencies, run the following command:
   
-  N/A
+  No installations needed.
 
   ## Usage
 
-      Click things.
+  Usage is strait forward. If you click on one of the hexagons a modal will pop up with the site summary as well as a button to take you to the deployed link.
   
   ## Technologies
 
