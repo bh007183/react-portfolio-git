@@ -128,10 +128,7 @@ export default function Center() {
           <img src={litzia} className="appImage"></img>
           <p id="simple-modal-description">
             (Please note, this app is hosted on heroku and may take a few second
-            to load.) This website was built with a certain company in mind.
-            Though im not sure if we will ever intigrate it into there current
-            site, it was a fun experiance. It utilizes cloudinary, nodemailer,
-            bcrypt, jsonwebtoken, and a mysql database.
+            to load.) This Website was build as an e-store though we never set up a payment method. To login as a customer username and password is Customer. To login with editing capabilities, username and password is Admin It utilizes cloudinary, nodemailer, bcrypt, jsonwebtoken, and a mysql database.
           </p>
           <Button
             variant="outlined"
