@@ -1,11 +1,10 @@
 import "./style.css";
 import React, { Component, useState } from "react";
 import date from "./date.jpg";
-import day from "./day.jpg";
+import movieSearch from "./moviesearch.png"
 import dragon from "./dragon.jpg";
 import turn from "./turn.jpg";
 import estore from "./estore.jpg";
-import weather from "./weather.jpg";
 import litzia from "../Collaborators/litzia.jpg";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
@@ -64,6 +63,8 @@ export default function Center() {
             againt! if you do like it, click save! Next it will take you to
             food. You can select your city and then generate a place to eat via
             complete randome or randome by cuisine.
+            <br></br>
+          <p>Tool Box: JavaScript, CSS, JQuery, The Movie Database API and Zomato API </p>
           </p>
           <Button
             variant="outlined"
@@ -88,6 +89,8 @@ export default function Center() {
             for a vacation rental service to use this app but it could be used
             by restaurants or other establishents that are wanting to create a
             rewards system for customers.
+            <br></br>
+          <p>Tool Box: Handlebars.js, JavaScript, CSS, cloudinary, bcrypt, express-session, and a MySql2 database via sequelize. </p>
           </p>
           <Button
             variant="outlined"
@@ -110,6 +113,8 @@ export default function Center() {
             adventurer, this easy to navigate app is fun to look through! As I
             did not want to spend alot of time on seed there are only 8 products
             listed. Admin abilities have not been added quite yet.
+            <br></br>
+          <p>Tool Box: ReactJS, JavaScript, CSS, MySql database via sequelize. </p>
           </p>
           <Button
             variant="outlined"
@@ -128,7 +133,9 @@ export default function Center() {
           <img src={litzia} className="appImage"></img>
           <p id="simple-modal-description">
             (Please note, this app is hosted on heroku and may take a few second
-            to load.) This Website was build as an e-store though we never set up a payment method. To login as a customer username and password is Customer. To login with editing capabilities, username and password is Admin It utilizes cloudinary, nodemailer, bcrypt, jsonwebtoken, and a mysql database.
+            to load.) This Website was build as an e-store though we never set up a payment method. To login as a customer username and password is Customer. To login with editing capabilities, username and password is Admin.
+            <br></br>
+          <p>Tool Box: ReactJS, JavaScript, CSS, cloudinary, nodemailer, bcrypt, jsonwebtoken, and a MySql database via sequelize. </p>
           </p>
           <Button
             variant="outlined"
@@ -150,6 +157,9 @@ export default function Center() {
             good but if you enter a ticker you will be able to see news articles
             for that companie as well as a chart if the market is open. The
             chart will take 10 seconds to load.
+          
+          <br></br>
+          <p>Tool Box: JavaScript, JQuery, HTML, CSS</p>
           </p>
           <Button
             variant="outlined"
@@ -164,16 +174,20 @@ export default function Center() {
     case "5":
       body = (
         <div className={classes.paper}>
-          <h4 id="simple-modal-title">Old Man Weather</h4>
-          <img src={weather} className="appImage"></img>
+          <h4 id="simple-modal-title">Movie Search</h4>
+          <img src={movieSearch} className="appImage"></img>
           <p id="simple-modal-description">
-            This is a simple weather app using a 3rd party api. Strait forward
-            and easy to use.
+            This is a simple search app utilizing "The Movie Database" api. When you search a movie it will display potential matches and you may view details on that film or save it into the saved page. This app is handy as you can see where to rent a film or stream the film.
+            <br></br>
+          <p>Tool Box: MongoDB, mongoose, express.js, Node.js, JavaScript, HTML, CSS</p>
+
+
+
           </p>
           <Button
             variant="outlined"
             target="_blank"
-            href="https://bh007183.github.io/old-man-weather/"
+            href="https://moviesearch-bjh.herokuapp.com/"
           >
             Take a look!
           </Button>
