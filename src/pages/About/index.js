@@ -8,6 +8,7 @@ export default function About() {
       <div className="row bio">
         <div className="col s10 m6 l4 test">
           <div className="card-panel">
+          <h4><p style={{textAlign: "center"}} className="white-text">Ben Hopkins</p></h4>
             <div className="ratio">
               
               <img className="me" src={pic} />

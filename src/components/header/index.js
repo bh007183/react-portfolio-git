@@ -59,7 +59,7 @@ render() {
         <br/>
         <a href="https://github.com/bh007183" target="_blank">Github Profile</a>
         <br/>
-        <a href="https://www.linkedin.com/in/ben-hopkins-24a41357" target="_blank">Linkdin Profile</a>
+        <a href="https://www.linkedin.com/in/ben-hopkins-24a41357" target="_blank">LinkdIn Profile</a>
         <br/> 
         <a href="mailto:bjhops17@gmail.com">bjhops17@gmail.com</a>
         <br/>

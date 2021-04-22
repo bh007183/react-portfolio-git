@@ -73,6 +73,15 @@ export default function Center() {
           >
             Take a look!
           </Button>
+          <br></br>
+          <br></br>
+          <Button
+            variant="outlined"
+            target="_blank"
+            href="https://github.com/bh007183/shake-and-date"
+          >
+            GitHub!
+          </Button>
         </div>
       );
       break;
@@ -99,6 +108,15 @@ export default function Center() {
           >
             Take a look!
           </Button>
+          <br></br>
+          <br></br>
+          <Button
+            variant="outlined"
+            target="_blank"
+            href="https://github.com/bh007183/eightysixed-app"
+          >
+            GitHub!
+          </Button>
         </div>
       );
       break;
@@ -123,6 +141,15 @@ export default function Center() {
           >
             Take a look!
           </Button>
+          <br></br>
+          <br></br>
+          <Button
+            variant="outlined"
+            target="_blank"
+            href="https://github.com/bh007183/bjh-e-store"
+          >
+            GitHub!
+          </Button>
         </div>
       );
       break;
@@ -143,6 +170,15 @@ export default function Center() {
             href="https://l-z-mount-bjh.herokuapp.com/"
           >
             Take a look!
+          </Button>
+          <br></br>
+          <br></br>
+          <Button
+            variant="outlined"
+            target="_blank"
+            href="https://github.com/bh007183/litzia-front"
+          >
+            GitHub!
           </Button>
         </div>
       );
@@ -168,6 +204,15 @@ export default function Center() {
           >
             Take a look!
           </Button>
+          <br></br>
+          <br></br>
+          <Button
+            variant="outlined"
+            target="_blank"
+            href="https://github.com/bh007183/stock-app"
+          >
+            GitHub!
+          </Button>
         </div>
       );
       break;
@@ -190,6 +235,15 @@ export default function Center() {
             href="https://moviesearch-bjh.herokuapp.com/"
           >
             Take a look!
+          </Button>
+          <br></br>
+          <br></br>
+          <Button
+            variant="outlined"
+            target="_blank"
+            href="https://github.com/bh007183/Movie-Search"
+          >
+            GitHub!
           </Button>
         </div>
       );
