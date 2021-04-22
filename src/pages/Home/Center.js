@@ -56,13 +56,13 @@ export default function Center() {
           <h4 id="simple-modal-title">Shake N Date</h4>
           <img src={date} className="appImage"></img>
           <p id="simple-modal-description">
-            Don't know what to do for date night? Worry no more! Let Shake N
-            Date pick a date for you! You may select the randome button or a
-            genre and it will generate a highly rated film for you to watch and
-            where to watch it online. If you dont like it, hit the button
-            againt! if you do like it, click save! Next it will take you to
-            food. You can select your city and then generate a place to eat via
-            complete randome or randome by cuisine.
+          Don't know what to do for date night? Worry no more! Let Shake N
+Date pick a date for you! You may select the random button or 
+a genre and it will generate a highly rated film for you to watch and
+where to watch it online. If you don't like it, hit the button
+againt! If you do like it, click save! Next it will take you to
+food. You can select your city and then generate a place to eat via
+complete random or random by cuisine.
             <br></br>
           <p>Tool Box: JavaScript, CSS, JQuery, The Movie Database API and Zomato API </p>
           </p>
@@ -91,13 +91,13 @@ export default function Center() {
           <h4 id="simple-modal-title">Turn The Tables</h4>
           <img src={turn} className="appImage"></img>
           <p id="simple-modal-description">
-            (Please note, this app is hosted on heroku and may take a few second
-            to load.) An interesting concept of an app, Turn The Tables is a
-            rating system for businesses to rate customers. Feel free to create
-            an account and poke arround. probebly the best use scenerio would be
-            for a vacation rental service to use this app but it could be used
-            by restaurants or other establishents that are wanting to create a
-            rewards system for customers.
+          (Please note, this app is hosted on heroku and may take a few seconds
+to load.) An interesting concept of an app, Turn The Tables is a
+rating system for businesses to rate customers. Feel free to create
+an account and poke around. Probably the best use scenario would be
+for a vacation rental service to use this app but it could be used
+by restaurants or other establishments that are wanting to create a
+rewards system for customers.
             <br></br>
           <p>Tool Box: Handlebars.js, JavaScript, CSS, cloudinary, bcrypt, express-session, and a MySql2 database via sequelize. </p>
           </p>
@@ -126,10 +126,10 @@ export default function Center() {
           <h4 id="simple-modal-title">git Outside!</h4>
           <img src={estore} className="appImage"></img>
           <p id="simple-modal-description">
-            (Please note, this app is hosted on heroku and may take a few second
-            to load.) A simple full stack e-store geared to the outdoor
+            (Please note, this app is hosted on heroku and may take a few seconds
+            to load.) A simple full stack e-store geared toward the outdoor
             adventurer, this easy to navigate app is fun to look through! As I
-            did not want to spend alot of time on seed there are only 8 products
+            did not want to spend alot of time on seed there are only eight products
             listed. Admin abilities have not been added quite yet.
             <br></br>
           <p>Tool Box: ReactJS, JavaScript, CSS, MySql database via sequelize. </p>
@@ -159,8 +159,8 @@ export default function Center() {
           <h4 id="simple-modal-title">Litzia</h4>
           <img src={litzia} className="appImage"></img>
           <p id="simple-modal-description">
-            (Please note, this app is hosted on heroku and may take a few second
-            to load.) This Website was build as an e-store though we never set up a payment method. To login as a customer username and password is Customer. To login with editing capabilities, username and password is Admin.
+            (Please note, this app is hosted on heroku and may take a few seconds
+            to load.) This Website was build as an e-store though we never set up a payment method. To login as a customer, username and password is Customer. To login with editing capabilities, username and password is Admin.
             <br></br>
           <p>Tool Box: ReactJS, JavaScript, CSS, cloudinary, nodemailer, bcrypt, jsonwebtoken, and a MySql database via sequelize. </p>
           </p>
@@ -189,9 +189,8 @@ export default function Center() {
           <h4 id="simple-modal-title">Dragon Trading</h4>
           <img src={dragon} className="appImage"></img>
           <p id="simple-modal-description">
-            This is just a simple trading app that I worked on for fun. Not very
-            good but if you enter a ticker you will be able to see news articles
-            for that companie as well as a chart if the market is open. The
+            This is just a simple trading app that I worked on for fun. If you enter a ticker you will be able to see news articles
+            for that company as well as a chart if the market is open. The
             chart will take 10 seconds to load.
           
           <br></br>
@@ -222,7 +221,7 @@ export default function Center() {
           <h4 id="simple-modal-title">Movie Search</h4>
           <img src={movieSearch} className="appImage"></img>
           <p id="simple-modal-description">
-            This is a simple search app utilizing "The Movie Database" api. When you search a movie it will display potential matches and you may view details on that film or save it into the saved page. This app is handy as you can see where to rent a film or stream the film.
+            This is a simple search app utilizing "The Movie Database" API. When you search a movie, it will display potential matches and you may view details on that film or save it into the saved page. This app is handy as you can see where to rent a film or stream the film.
             <br></br>
           <p>Tool Box: MongoDB, mongoose, express.js, Node.js, JavaScript, HTML, CSS</p>
 

@@ -57,7 +57,7 @@ render() {
             
         <h3 style={{margin: "0 auto"}}>Contact me</h3>
         <br/>
-        <a href="https://github.com/bh007183" target="_blank">Github Profile</a>
+        <a href="https://github.com/bh007183" target="_blank">GitHub Profile</a>
         <br/>
         <a href="https://www.linkedin.com/in/ben-hopkins-24a41357" target="_blank">LinkdIn Profile</a>
         <br/> 

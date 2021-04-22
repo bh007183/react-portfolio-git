@@ -17,7 +17,7 @@ export default function About() {
               
               
             <p className="white-text">
-              Hello! I hail from a small town two hours east of Seattle and recently graduated from University of Washingtons Full Stack Web Development Bootcamp (thats a mouth full)! My employment history has never included anything tech related (as of yet) so I will not mention former accomplishments. I did graduate with my BA in Criminal Justice back in 2014 but never really used it in the work force (accept for a short gig in the freezing waste lands of northern Alaska). I am excited to launch into a tech career and learn as much as I can! Curently, I can work with: 
+            A Full Stack Web Developer with a background in FireFighting and Communications. Experience working in team environments, teachable, hardworking, and enjoys learning new things. Started working towards a BA in Criminal Justice at age 16, graduating at age 21 having achieved the Arnold Fletcher Award. Recently, graduated from University of Washington’s Full-Stack Web Development Bootcamp in March 2021 with the desire to continue learning and improving. Curently, I can work with: 
               <br></br>
               <li>Javascript</li>
               <li>JQuery</li>

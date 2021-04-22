@@ -12,7 +12,7 @@ export default function Card(props) {
       <div className="card collaboratorsCard">
       <div className="col-lg-6 column title">
         <h6>{props.title}</h6>
-        <p>Check out their github profiles!</p>
+        <p>Check out their GitHub profiles!</p>
         <div style={{ display: "flex", justifyContent: "space-around" }}>
           {thisState.linkArray.map((github, index) => (
             <button key={index}>
