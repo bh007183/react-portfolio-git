@@ -17,7 +17,7 @@ export default function About() {
               
               
             <p className="white-text">
-            A Full Stack Web Developer with a background in FireFighting and Communications. Experience working in team environments, teachable, hardworking, and enjoys learning new things. Started working towards a BA in Criminal Justice at age 16, graduating at age 21 having achieved the Arnold Fletcher Award. Recently, graduated from University of Washington’s Full-Stack Web Development Bootcamp in March 2021 with the desire to continue learning and improving. Curently, I can work with: 
+            A Full Stack Web Developer with a background in Firefighting and Communications. Experience working in team environments, teachable, hardworking, and enjoys learning new things. Started working towards a BA in Criminal Justice at age 16, graduating at age 21 having achieved the Arnold Fletcher Award. Recently, graduated from University of Washington’s Full-Stack Web Development Bootcamp in March 2021 with the desire to continue learning and improving. Curently, I can work with: 
               <br></br>
               <li>Javascript</li>
               <li>JQuery</li>
